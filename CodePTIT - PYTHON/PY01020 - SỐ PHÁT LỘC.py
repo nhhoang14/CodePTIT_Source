@@ -1,3 +1,6 @@
+#https://code.ptit.edu.vn/student/question/PY01020
+#SỐ PHÁT LỘC
+
 tc = int(input())
 for _ in range(tc):
     s = input()

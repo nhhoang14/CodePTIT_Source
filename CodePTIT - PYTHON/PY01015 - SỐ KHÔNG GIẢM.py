@@ -1,3 +1,6 @@
+#https://code.ptit.edu.vn/student/question/PY01015
+#SỐ KHÔNG GIẢM
+
 def check(s):
     length = len(s)
     for i in range(length - 1):

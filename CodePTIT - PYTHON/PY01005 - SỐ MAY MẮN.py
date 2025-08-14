@@ -1,3 +1,6 @@
+#https://code.ptit.edu.vn/student/question/PY01005
+#SỐ MAY MẮN
+
 s = input()
 cnt = 0
 
