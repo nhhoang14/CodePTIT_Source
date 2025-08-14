@@ -1,8 +1,6 @@
 #https://code.ptit.edu.vn/student/question/PY01036
 #TÍNH TỔNG PHÂN THỨC
 
-import math
-
 tc = int(input())
 for _ in range(tc):
     n = int(input())
