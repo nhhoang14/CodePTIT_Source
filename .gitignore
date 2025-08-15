@@ -52,6 +52,7 @@ Mkfile.old
 dkms.conf
 
 # IntelliJ project files
+.venv/
 .idea/
 out/
 
