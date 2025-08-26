@@ -58,3 +58,4 @@ out/
 
 # Java:
 *.class
+*.json
