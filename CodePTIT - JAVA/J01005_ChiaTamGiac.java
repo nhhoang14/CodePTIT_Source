@@ -6,11 +6,12 @@ public class J01005_ChiaTamGiac {
     public static void testcase(){
         int n = ip.nextInt();
         int h = ip.nextInt();
-        int i = 1;
-        while(i == n){
-            double res = h * Math.sqrt(i/n);
-            System.out.printf("%.6f", res);
+        double ps = 1.0 / n;
+        for (int i = 1; i < n; i++) {
+            double res = h * Math.sqrt(i * ps);
+            System.out.printf("%.6f ", res);
         }
+        System.out.println();
     }
     
     public static void main(String args[]) {
