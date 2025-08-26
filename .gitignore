@@ -59,5 +59,4 @@ out/
 # Java:
 *.class
 *.json
-nbproject/
-/JavaProject2/build/
+JavaProject2/
