@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.math.BigInteger;
 
-public class J03013_HieuSoNguyenLon1 {
+public class J03013_HieuSoNguyenLon_1 {
 
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);

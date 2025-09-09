@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class J03006_SoDep1 {
+public class J03006_SoDep_1 {
 
     public static boolean check(String s){
         int len = s.length();

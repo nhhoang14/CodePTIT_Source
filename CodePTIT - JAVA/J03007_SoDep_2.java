@@ -1,20 +1,29 @@
 import java.util.Scanner;
 
-public class J03008_SoDep3 {
+public class J03007_SoDep_2 {
 
     public static boolean check(String s) {
         int len = s.length();
         int end = len / 2 + 1;
+        long sum = 0;
         for (int i = 0; i <= end; i++) {
             long kt = s.charAt(i) - '0';
-            if (kt != 2 && kt != 3 && kt != 5 && kt != 7) {
+            if (i == 0 && kt != 8) {
                 return false;
             }
             if (s.charAt(i) != s.charAt(len - 1 - i)) {
                 return false;
             }
+            sum += kt;
+            if (i == end) {
+                if (len % 2 == 0) {
+                    sum -= 2 * kt;
+                } else {
+                    sum -= kt;
+                }
+            }
         }
-        return true;
+        return sum % 10 == 0;
     }
 
     public static void main(String[] args) {
