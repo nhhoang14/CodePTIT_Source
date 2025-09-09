@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class J03025_XauDoiXung {
