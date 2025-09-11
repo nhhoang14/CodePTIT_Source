@@ -1,5 +1,6 @@
 #https://code.ptit.edu.vn/student/question/PY01058
 #ĐOẠN CUỐI NGUYÊN TỐ
+
 import math
 
 def isPrime(n):
