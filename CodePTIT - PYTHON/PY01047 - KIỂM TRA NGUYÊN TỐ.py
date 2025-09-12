@@ -10,8 +10,8 @@ def is_prime(n):
     return True
 
 for tc in range(int(input())):
-    n = input().split()
-    tmp = n[-4:-1]
+    n = input()
+    tmp = n[-4:]
     num = int(tmp)
     if is_prime(num):
        print("YES")
