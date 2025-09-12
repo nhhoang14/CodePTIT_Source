@@ -41,16 +41,23 @@ class Point {
     }
 }
 
-public class J04001_KhaiBaoLopPoint {
+public class J04008_ChuViTamGiac {
     
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         int tc = ip.nextInt();
         while (tc-- > 0) {
-            Point p1 = new Point(ip.nextDouble(), ip.nextDouble());
-            Point p2 = new Point(ip.nextDouble(), ip.nextDouble());
-            double res = p1.distance(p2);
-            System.out.printf("%.4f\n", res);
+            Point a = new Point(ip.nextDouble(), ip.nextDouble());
+            Point b = new Point(ip.nextDouble(), ip.nextDouble());
+            Point c = new Point(ip.nextDouble(), ip.nextDouble());
+            double ab = a.distance(b);
+            double bc = b.distance(c);
+            double ac = a.distance(c);
+            if (ab + bc > ac && ab + ac > bc && bc + ac > ab){
+                System.out.printf("%.3f\n", ab + bc + ac);
+            } else {
+                System.out.println("INVALID");
+            }
         }
     }
 }
