@@ -1,7 +1,6 @@
 # https://code.ptit.edu.vn/student/question/PY02016
 # XUẤT HIỆN NHIỀU LẦN NHẤT
 
-import math
 from collections import defaultdict
 
 for _ in range(int(input())):
@@ -13,7 +12,7 @@ for _ in range(int(input())):
     for x in lst:
         mp[x] += 1
         if maxValue < mp[x]:
-            maxValue =  mp[x]
+            maxValue = mp[x]
             minKey = x
         if mp[x] == maxValue:
             minkey = min(minKey, x)
