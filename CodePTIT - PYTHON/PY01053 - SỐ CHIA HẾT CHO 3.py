@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01053
-#SỐ CHIA HẾT CHO 3
+# https://code.ptit.edu.vn/student/question/PY01053
+# SỐ CHIA HẾT CHO 3
 
 for _ in range(int(input())):
     s = input()

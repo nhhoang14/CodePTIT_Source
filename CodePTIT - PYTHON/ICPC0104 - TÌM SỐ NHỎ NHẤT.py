@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/ICPC0104
-#TÌM SỐ NHỎ NHẤT
+# https://code.ptit.edu.vn/student/question/ICPC0104
+# TÌM SỐ NHỎ NHẤT
 
 for _ in range(int(input())):
     s = input()

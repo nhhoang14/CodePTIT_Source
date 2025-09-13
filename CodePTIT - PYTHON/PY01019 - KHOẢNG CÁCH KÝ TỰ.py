@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01019
-#KHOẢNG CÁCH KÝ TỰ
+# https://code.ptit.edu.vn/student/question/PY01019
+# KHOẢNG CÁCH KÝ TỰ
 
 import math
 

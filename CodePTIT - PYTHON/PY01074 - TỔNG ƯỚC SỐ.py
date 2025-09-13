@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01074
-#TỔNG ƯỚC SỐ
+# https://code.ptit.edu.vn/student/question/PY01074
+# TỔNG ƯỚC SỐ
 
 #Khong thuc su hieu tai sao nhu nay moi AC :))
 n = int(input())

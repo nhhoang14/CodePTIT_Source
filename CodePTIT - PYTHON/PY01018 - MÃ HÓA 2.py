@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01018
-#MÃ HÓA 2
+# https://code.ptit.edu.vn/student/question/PY01018
+# MÃ HÓA 2
 
 P = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ_.'
 

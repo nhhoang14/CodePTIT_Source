@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01038
-#KIỂM TRA CHIA HẾT CHO 7
+# https://code.ptit.edu.vn/student/question/PY01038
+# KIỂM TRA CHIA HẾT CHO 7
 
 for _ in range(int(input())):
     s = input()

@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01042
-#KIỂM TRA HỆ CƠ SỐ 3
+# https://code.ptit.edu.vn/student/question/PY01042
+# KIỂM TRA HỆ CƠ SỐ 3
 
 def check(s):
     for c in s:

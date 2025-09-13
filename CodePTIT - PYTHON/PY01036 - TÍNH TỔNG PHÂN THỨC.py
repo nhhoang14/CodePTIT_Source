@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01036
-#TÍNH TỔNG PHÂN THỨC
+# https://code.ptit.edu.vn/student/question/PY01036
+# TÍNH TỔNG PHÂN THỨC
 
 tc = int(input())
 for _ in range(tc):

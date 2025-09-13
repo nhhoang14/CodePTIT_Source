@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01055
-#SỐ XEN KẼ
+# https://code.ptit.edu.vn/student/question/PY01055
+# SỐ XEN KẼ
 
 def check(s):
     if len(s) % 2 == 0:

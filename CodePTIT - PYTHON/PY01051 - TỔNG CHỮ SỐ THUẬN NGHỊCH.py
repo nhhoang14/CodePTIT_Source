@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01051
-#TỔNG CHỮ SỐ THUẬN NGHỊCH
+# https://code.ptit.edu.vn/student/question/PY01051
+# TỔNG CHỮ SỐ THUẬN NGHỊCH
 
 for tc in range(int(input())):
     s = input().strip()

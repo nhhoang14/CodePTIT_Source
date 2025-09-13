@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01009
-#CHỮ HOA – CHỮ THƯỜNG
+# https://code.ptit.edu.vn/student/question/PY01009
+# CHỮ HOA – CHỮ THƯỜNG
 
 s = input()
 cnt = 0

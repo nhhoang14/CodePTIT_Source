@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01014
-#CHIA HẾT CHO K
+# https://code.ptit.edu.vn/student/question/PY01014
+# CHIA HẾT CHO K
 
 a, k, n = map(int, input().split())
 

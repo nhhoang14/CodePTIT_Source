@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01039
-#KIỂM TRA SỐ ĐẸP
+# https://code.ptit.edu.vn/student/question/PY01039
+# KIỂM TRA SỐ ĐẸP
 
 def check(s):
     a = s[0]

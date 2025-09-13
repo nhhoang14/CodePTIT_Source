@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01011
-#LIỆT KÊ SỐ ĐẸP
+# https://code.ptit.edu.vn/student/question/PY01011
+# LIỆT KÊ SỐ ĐẸP
 
 def sinh(n):
     res = []

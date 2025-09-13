@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01066
-#XÂU “THĂNG BẰNG”
+# https://code.ptit.edu.vn/student/question/PY01066
+# XÂU “THĂNG BẰNG”
 
 def check(s):
     slen = len(s)

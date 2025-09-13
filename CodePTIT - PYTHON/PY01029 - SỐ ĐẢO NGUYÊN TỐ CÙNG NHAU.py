@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01029
-#SỐ ĐẢO NGUYÊN TỐ CÙNG NHAU
+# https://code.ptit.edu.vn/student/question/PY01029
+# SỐ ĐẢO NGUYÊN TỐ CÙNG NHAU
 
 import math
 

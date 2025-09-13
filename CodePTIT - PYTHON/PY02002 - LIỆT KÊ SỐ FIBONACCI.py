@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY02002
-#LIỆT KÊ SỐ FIBONACCI
+# https://code.ptit.edu.vn/student/question/PY02002
+# LIỆT KÊ SỐ FIBONACCI
 
 def fibo_in_range(a, b):
     x, y = 1, 1

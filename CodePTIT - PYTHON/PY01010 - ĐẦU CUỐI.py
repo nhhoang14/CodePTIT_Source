@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01010
-#ĐẦU CUỐI
+# https://code.ptit.edu.vn/student/question/PY01010
+# ĐẦU CUỐI
 
 tc = int(input())
 for _ in range(tc):

@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/ICPC0116
-#CON SỐ DUYÊN NỢ
+# https://code.ptit.edu.vn/student/question/ICPC0116
+# CON SỐ DUYÊN NỢ
 
 for _ in range(int(input())):
     s = input()

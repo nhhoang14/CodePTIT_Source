@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01007
-#LÃI SUẤT NGÂN HÀNG
+# https://code.ptit.edu.vn/student/question/PY01007
+# LÃI SUẤT NGÂN HÀNG
 
 import math
 

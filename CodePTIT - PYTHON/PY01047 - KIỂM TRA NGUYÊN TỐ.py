@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01047
-#KIỂM TRA NGUYÊN TỐ
+# https://code.ptit.edu.vn/student/question/PY01047
+# KIỂM TRA NGUYÊN TỐ
 
 def is_prime(n):
     if n < 2:

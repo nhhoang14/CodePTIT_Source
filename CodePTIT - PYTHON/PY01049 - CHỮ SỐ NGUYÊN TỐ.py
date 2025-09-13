@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01049
-#CHỮ SỐ NGUYÊN TỐ
+# https://code.ptit.edu.vn/student/question/PY01049
+# CHỮ SỐ NGUYÊN TỐ
 
 def is_prime(n):
     if n <= 1:

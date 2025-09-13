@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01043
-#SỐ THUẬN NGHỊCH CHẴN
+# https://code.ptit.edu.vn/student/question/PY01043
+# SỐ THUẬN NGHỊCH CHẴN
 
 def sinh(n):
     res = []

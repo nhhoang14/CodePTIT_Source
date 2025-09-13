@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01004
-#NGUYÊN TỐ
+# https://code.ptit.edu.vn/student/question/PY01004
+# NGUYÊN TỐ
 
 import math
 

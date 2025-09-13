@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01059
-#TỔNG CHỮ SỐ - TÍCH CHỮ SỐ
+# https://code.ptit.edu.vn/student/question/PY01059
+# TỔNG CHỮ SỐ - TÍCH CHỮ SỐ
 
 for t in range(int(input())):
     s = input()

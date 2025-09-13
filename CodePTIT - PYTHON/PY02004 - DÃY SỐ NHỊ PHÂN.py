@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY02004
-#DÃY SỐ NHỊ PHÂN
+# https://code.ptit.edu.vn/student/question/PY02004
+# DÃY SỐ NHỊ PHÂN
 
 n = int(input())
 lst = list(map(int, input().split()))[:n]

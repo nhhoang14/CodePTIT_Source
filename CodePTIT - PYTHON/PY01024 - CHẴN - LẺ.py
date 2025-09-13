@@ -1,5 +1,5 @@
-#https://code.ptit.edu.vn/student/question/PY01024
-#CHẴN - LẺ
+# https://code.ptit.edu.vn/student/question/PY01024
+# CHẴN - LẺ
 
 def check(s):
     if sum(int(i) for i in s) % 10 != 0:
