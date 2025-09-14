@@ -13,7 +13,7 @@ def isPrime(n):
     return True
 
 n = int(input())
-lst = list(map(int, input().split()))[:n]
+lst = list(map(int, input().split()))
 mp = defaultdict(int)
 
 for x in lst:
