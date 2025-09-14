@@ -7,14 +7,17 @@ class PS:
     def __init__(self, tu, mau):
         self.tu = tu
         self.mau = mau
-        self.rutgon()
+        self.rut_gon()
 
-    def rutgon(self):
+    def rut_gon(self):
         uc = math.gcd(self.tu, self.mau)
         self.tu //= uc
         self.mau //= uc
 
+    def __str__(self):
+        return f'{self.tu}/{self.mau}'
+
 arr = list(map(int, input().split()))
 if arr[1] > 0:
     ps = PS(arr[0], arr[1])
-    print('{}/{}'.format(ps.tu, ps.mau))
+    print(ps)
