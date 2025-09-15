@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J03021_DienThoaiCucGach {
@@ -11,13 +13,13 @@ public class J03021_DienThoaiCucGach {
             String[] ds = {"2ABC", "3DEF", "4GHI", "5JKL", "6MNO", "7PQRS", "8TUV", "9WXYZ"};
             StringBuilder sb = new StringBuilder();
             for (char c : s.toCharArray()) {
-                for(String kt : ds){
-                    if(kt.contains(String.valueOf(c))){
+                for (String kt : ds) {
+                    if (kt.contains(String.valueOf(c))) {
                         sb.append(kt.charAt(0));
                     }
                 }
             }
-            if(sb.toString().equals(sb.reverse().toString())){
+            if (sb.toString().equals(sb.reverse().toString())) {
                 System.out.println("YES");
             } else {
                 System.out.println("NO");

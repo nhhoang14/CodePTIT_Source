@@ -1,6 +1,9 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J01002_TinhTong {
+
     public static Scanner ip = new Scanner(System.in);
 
     public static void testcase() {
@@ -11,7 +14,7 @@ public class J01002_TinhTong {
 
     public static void main(String[] args) {
         int tc = ip.nextInt();
-        while (tc-- >0){
+        while (tc-- > 0) {
             testcase();
         }
     }

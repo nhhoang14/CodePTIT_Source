@@ -1,7 +1,9 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J03010_DiaChiEmail {
-    
+
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         int tc = ip.nextInt();
@@ -20,10 +22,10 @@ public class J03010_DiaChiEmail {
             for (int i = 0; i < pos; i++) {
                 if (ds[i].startsWith(tmp)) cnt++;
             }
-            if(cnt > 0) tmp = tmp + (cnt + 1);
+            if (cnt > 0) tmp = tmp + (cnt + 1);
             ds[pos++] = tmp + "@ptit.edu.vn";
         }
-        for(int i = 0; i < pos; i++){
+        for (int i = 0; i < pos; i++) {
             System.out.println(ds[i]);
         }
     }

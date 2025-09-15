@@ -1,9 +1,12 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J01005_ChiaTamGiac {
+
     public static Scanner ip = new Scanner(System.in);
-    
-    public static void testcase(){
+
+    public static void testcase() {
         int n = ip.nextInt();
         int h = ip.nextInt();
         double ps = 1.0 / n;
@@ -13,10 +16,10 @@ public class J01005_ChiaTamGiac {
         }
         System.out.println();
     }
-    
+
     public static void main(String args[]) {
         int tc = ip.nextInt();
-        while(tc-- >0){
+        while (tc-- > 0) {
             testcase();
         }
     }

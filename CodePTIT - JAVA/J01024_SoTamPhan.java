@@ -1,11 +1,15 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J01024_SoTamPhan {
 
     public static boolean check(int n) {
-        while(n > 0){
+        while (n > 0) {
             int a = n % 10;
-            if(a != 0 && a != 1 && a != 2) return false;
+            if (a != 0 && a != 1 && a != 2) {
+                return false;
+            }
             n /= 10;
         }
         return true;

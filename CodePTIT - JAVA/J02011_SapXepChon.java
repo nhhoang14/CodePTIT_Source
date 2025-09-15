@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J02011_SapXepChon {
@@ -24,7 +26,7 @@ public class J02011_SapXepChon {
                 }
             }
             swap(arr, i, pos);
-            for (int num : arr){
+            for (int num : arr) {
                 System.out.printf("%d ", num);
             }
             System.out.println("");

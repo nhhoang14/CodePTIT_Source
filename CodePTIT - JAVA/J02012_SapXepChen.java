@@ -1,7 +1,9 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J02012_SapXepChen {
-    
+
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
@@ -18,11 +20,11 @@ public class J02012_SapXepChen {
         for (int i = 0; i < n; i++) {
             System.out.printf("Buoc %d: ", i);
             int pos = i;
-            while(pos > 0 && arr[pos] < arr[pos - 1]){
+            while (pos > 0 && arr[pos] < arr[pos - 1]) {
                 swap(arr, pos - 1, pos);
                 pos--;
             }
-            for (int j = 0; j <= i; j++){
+            for (int j = 0; j <= i; j++) {
                 System.out.printf("%d ", arr[j]);
             }
             System.out.println("");

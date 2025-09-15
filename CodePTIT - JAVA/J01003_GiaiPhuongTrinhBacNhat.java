@@ -1,9 +1,12 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
-public class J01003_GiaiPhuongTrinhBacNhat{
+public class J01003_GiaiPhuongTrinhBacNhat {
+
     public static Scanner ip = new Scanner(System.in);
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         float a = ip.nextFloat();
         float b = ip.nextFloat();
         if (a == 0f) {
@@ -13,7 +16,7 @@ public class J01003_GiaiPhuongTrinhBacNhat{
                 System.out.print("VN");
             }
         } else {
-            System.out.printf("%.2f", -b/a);
+            System.out.printf("%.2f", -b / a);
         }
     }
 }

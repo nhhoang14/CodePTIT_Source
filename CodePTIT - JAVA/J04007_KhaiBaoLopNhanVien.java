@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 
 class NhanVien {
@@ -7,8 +9,8 @@ class NhanVien {
     public NhanVien() {
         this("00001", "", "", "", "", "", "");
     }
-    
-   public NhanVien(String code, String name, String sex, String date, String address, String tax, String contract) {
+
+    public NhanVien(String code, String name, String sex, String date, String address, String tax, String contract) {
         this.code = code;
         this.name = name;
         this.sex = sex;
@@ -25,7 +27,7 @@ class NhanVien {
 }
 
 public class J04007_KhaiBaoLopNhanVien {
-    
+
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         String name = ip.nextLine();

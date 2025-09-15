@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 
 class GiaoVien {
@@ -14,25 +16,29 @@ class GiaoVien {
         this.name = name;
         this.salary = salary;
     }
-    
-    public int getPosition(){
+
+    public int getPosition() {
         String pos = this.code.substring(0, 2);
-        if (pos.equals("HT")) return 2000000;
-        else if (pos.equals("HP")) return 900000;
-        else return 500000;
+        if (pos.equals("HT")) {
+            return 2000000;
+        } else if (pos.equals("HP")) {
+            return 900000;
+        } else {
+            return 500000;
+        }
     }
-    
-    public int getLevel(){
+
+    public int getLevel() {
         String pos = this.code.substring(2);
         int num = Integer.parseInt(pos);
         return num;
     }
-    
-    public int getRealSalary(){
+
+    public int getRealSalary() {
         int res = this.salary * this.getLevel() + this.getPosition();
         return res;
     }
-    
+
     @Override
     public String toString() {
         return String.format("%s %s %d %d %d", this.code, this.name, this.getLevel(), this.getPosition(), this.getRealSalary());

@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 
 class ThiSinh {
@@ -10,7 +12,7 @@ class ThiSinh {
         this.d2 = 0;
         this.d3 = 0;
     }
-    
+
     public ThiSinh(String name, String date, double d1, double d2, double d3) {
         this.name = name;
         this.date = date;

@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J02006_HopCuaHaiDaySo {
@@ -20,7 +22,7 @@ public class J02006_HopCuaHaiDaySo {
             dd[b[i]] = 1;
         }
         for (int i = 0; i < 1000; i++) {
-            if(dd[i] == 1){
+            if (dd[i] == 1) {
                 System.out.printf("%d ", i);
             }
         }

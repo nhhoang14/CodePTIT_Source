@@ -1,15 +1,17 @@
+/* @author @nhhoang14 */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
 class MonHoc implements Comparable<MonHoc> {
-    
+
     private String code, name, method;
 
-    public MonHoc(){
+    public MonHoc() {
         this("", "", "");
     }
-    
+
     public MonHoc(String code, String name, String method) {
         this.code = code;
         this.name = name;
@@ -28,6 +30,7 @@ class MonHoc implements Comparable<MonHoc> {
 }
 
 public class J07058_DanhSachMonThi {
+
     public static void main(String[] args) throws FileNotFoundException {
         Scanner ip = new Scanner(new File("MONHOC.in"));
         int tc = Integer.parseInt(ip.nextLine());

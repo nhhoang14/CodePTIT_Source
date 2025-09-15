@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 
 class Rectangle {
@@ -47,7 +49,7 @@ class Rectangle {
     public double findPerimeter() {
         return (this.w + this.h) * 2;
     }
-    
+
     @Override
     public String toString() {
         return String.format("%d %d %s", (int) findPerimeter(), (int) findArea(), getColor());
@@ -69,4 +71,3 @@ public class J04002_KhaiBaoLopHinhChuNhat {
         }
     }
 }
-

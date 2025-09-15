@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 import static java.lang.Math.*;
 
@@ -6,7 +8,7 @@ class Point {
     private double x, y;
 
     public Point() {
-        this(0,0);
+        this(0, 0);
     }
 
     public Point(double x, double y) {
@@ -18,12 +20,12 @@ class Point {
         this.x = p.x;
         this.y = p.y;
     }
-    
-    public double getX(){
+
+    public double getX() {
         return this.x;
     }
-    
-    public double getY(){
+
+    public double getY() {
         return this.y;
     }
 
@@ -42,7 +44,7 @@ class Point {
 }
 
 public class J04009_DienTichTamGiac {
-    
+
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         int tc = ip.nextInt();
@@ -53,7 +55,7 @@ public class J04009_DienTichTamGiac {
             double ab = a.distance(b);
             double bc = b.distance(c);
             double ac = a.distance(c);
-            if (ab + bc > ac && ab + ac > bc && bc + ac > ab){
+            if (ab + bc > ac && ab + ac > bc && bc + ac > ab) {
                 double p = (ab + bc + ac) / 2.0;
                 double dt = Math.sqrt(p * (p - ab) * (p - bc) * (p - ac));
                 System.out.printf("%.2f\n", dt);

@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J02010_SapXepDoiChoTrucTiep {
@@ -22,7 +24,7 @@ public class J02010_SapXepDoiChoTrucTiep {
                     swap(arr, i, j);
                 }
             }
-            for (int num : arr){
+            for (int num : arr) {
                 System.out.printf("%d ", num);
             }
             System.out.println("");

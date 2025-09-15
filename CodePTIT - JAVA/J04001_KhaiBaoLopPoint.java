@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.*;
 import static java.lang.Math.*;
 
@@ -6,7 +8,7 @@ class Point {
     private double x, y;
 
     public Point() {
-        this(0,0);
+        this(0, 0);
     }
 
     public Point(double x, double y) {
@@ -18,12 +20,12 @@ class Point {
         this.x = p.x;
         this.y = p.y;
     }
-    
-    public double getX(){
+
+    public double getX() {
         return this.x;
     }
-    
-    public double getY(){
+
+    public double getY() {
         return this.y;
     }
 
@@ -42,7 +44,7 @@ class Point {
 }
 
 public class J04001_KhaiBaoLopPoint {
-    
+
     public static void main(String[] args) {
         Scanner ip = new Scanner(System.in);
         int tc = ip.nextInt();

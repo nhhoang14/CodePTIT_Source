@@ -1,3 +1,5 @@
+/* @author @nhhoang14 */
+
 import java.util.Scanner;
 
 public class J03025_XauDoiXung {
@@ -9,7 +11,7 @@ public class J03025_XauDoiXung {
                 cnt++;
             }
         }
-        if((len % 2 == 0 && cnt == 1) || (len % 2 == 1 && cnt <= 1)) {
+        if ((len % 2 == 0 && cnt == 1) || (len % 2 == 1 && cnt <= 1)) {
             return "YES";
         } else {
             return "NO";
