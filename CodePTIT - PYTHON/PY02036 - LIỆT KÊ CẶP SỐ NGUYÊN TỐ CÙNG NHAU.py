@@ -1,4 +1,3 @@
-
 # https://code.ptit.edu.vn/student/question/PY02036
 # LIỆT KÊ CẶP SỐ NGUYÊN TỐ CÙNG NHAU
 
