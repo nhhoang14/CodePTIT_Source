@@ -11,12 +11,13 @@ def isPrime(n):
     return True
 
 n = int(input())
-tmp = set(map(int,input().split()))
-a = list(tmp)
+tmp = list(map(int, input().split()))
+a = list(dict.fromkeys(tmp))
 found = False
 total = sum(a)
+t1 = 0
 for i in range(len(a)):
-    t1 = sum(a[:(i + 1)])
+    t1 += a[i]
     if isPrime(t1) and isPrime(total - t1):
         print(i)
         found = True
