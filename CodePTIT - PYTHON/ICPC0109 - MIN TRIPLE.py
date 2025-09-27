@@ -1,23 +1,24 @@
 # https://code.ptit.edu.vn/student/question/ICPC0109
 # MIN TRIPLE
 
+import sys
 import heapq
+import re
 
-def solve(arr):
-    stack = arr[:3]
-    for x in arr:
-        if stack:
-            # xét cặp: số hiện tại với số trên đỉnh stack
-            if (stack[-1] + x) % 2 == 0:
-                stack.pop()  # bỏ cả 2
-            else:
-                stack.append(x)  # tổng lẻ thì giữ lại
+for _ in range(int(sys.stdin.readline())):
+    n = int(sys.stdin.readline())
+    line = ' ' + input().replace(' ', '  ') + ' '
+    a = []
+    i = -4
+    while i < 5 and len(a) < 4:
+        s = '\d' * abs(i) + ' '
+        if i < 0:
+            s = '-' + s
+        elif i > 0:
+            s = ' ' + s
         else:
-            stack.append(x)
-    return len(stack)
-
-
-for _ in range(int(input())):
-    n = int(input())
-    arr = list(map(int, input().split()))
-    print(solve(arr))
+            i += 1
+            continue
+        a += [int(x) for x in re.findall(s, line)]
+        i += 1
+    print(sum(heapq.nsmallest(3, a)))
