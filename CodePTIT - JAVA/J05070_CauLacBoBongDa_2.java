@@ -10,22 +10,24 @@ class CLB {
     public CLB(String id, String name, int price) {
         this.id = id;
         this.name = name;
-        this.price= price;
+        this.price = price;
     }
-    
-    public String getID(){
+
+    public String getID() {
         return this.id;
     }
-    
-    public String getName(){
+
+    public String getName() {
         return this.name;
     }
-    
-     public int getPrice(){
+
+    public int getPrice() {
         return this.price;
     }
 }
-class Match implements Comparable<Match>{
+
+class Match implements Comparable<Match> {
+
     private String id;
     private CLB club;
     private long qty;
@@ -44,10 +46,10 @@ class Match implements Comparable<Match>{
     public int compareTo(Match other) {
         return Long.compare(other.getTotal(), this.getTotal());
     }
-    
+
     @Override
     public String toString() {
-        return String.format("%s %s %d",this.id, this.club.getName(), this.getTotal());
+        return String.format("%s %s %d", this.id, this.club.getName(), this.getTotal());
     }
 }
 

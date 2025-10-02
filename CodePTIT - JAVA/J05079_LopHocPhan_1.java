@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class HocPhan implements Comparable<HocPhan>{
+class HocPhan implements Comparable<HocPhan> {
 
     private String id, name, group, teacher;
 
@@ -13,15 +13,15 @@ class HocPhan implements Comparable<HocPhan>{
         this.teacher = teacher;
     }
 
-    public String getID(){
+    public String getID() {
         return this.id;
     }
-    
+
     @Override
-    public int compareTo(HocPhan other){
+    public int compareTo(HocPhan other) {
         return this.group.compareTo(other.group);
     }
-    
+
     @Override
     public String toString() {
         return String.format("%s %s", this.group, this.teacher);
@@ -50,11 +50,11 @@ public class J05079_LopHocPhan_1 {
             String dsID = sc.nextLine();
             System.out.printf("Danh sach nhom lop mon %s:\n", map.get(dsID));
             ds.forEach(e -> {
-            if (e.getID().equals(dsID)) {
-                System.out.println(e);
-            }
-        });
-            
+                if (e.getID().equals(dsID)) {
+                    System.out.println(e);
+                }
+            });
+
         }
     }
 }
