@@ -11,7 +11,7 @@ i = 0
 for w in words:
     if w in ".!?":
         lines[i] = lines[i] + w
-        lines[i] = lines[i][0].upper() + lines[i][1: - 1]  # viết hoa đầu câu
+        lines[i] = lines[i][0].upper() + lines[i][1: - 1]
         i += 1
     else:
         lines[i] = lines.get(i, "") + (" " if lines.get(i) and w not in ',:' else "") + w
