@@ -11,7 +11,7 @@ for _ in range(int(sys.stdin.readline())):
     a = []
     i = -4
     while i < 5 and len(a) < 4:
-        s = '\d' * abs(i) + ' '
+        s = r'\d' * abs(i) + ' '
         if i < 0:
             s = '-' + s
         elif i > 0:
