@@ -6,7 +6,6 @@ class ThiSinh {
 
     private String id, name, dob;
     private double m1, m2;
-    private int getTotal;
 
     public ThiSinh(String id, String name, String dob, double m1, double m2) {
         this.id = id;
