@@ -1,1 +1,0 @@
-# Bài tập trên `CodePTIT`
