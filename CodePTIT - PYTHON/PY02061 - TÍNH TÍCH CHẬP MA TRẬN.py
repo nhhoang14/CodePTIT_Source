@@ -18,4 +18,3 @@ for _ in range(int(input())):
             sum += h[2][1] * x[i+1][j]
             sum += h[2][2] * x[i+1][j+1]
     print(sum)
-            
