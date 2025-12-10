@@ -1,4 +1,4 @@
-# https://code.ptit.edu.vn/student/question/ICPC0058
+# https://code.ptit.edu.vn/student/question/PYKT058
 # ĐỈNH THẮT
 
 def check(n, i, u, v, ke):
