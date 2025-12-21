@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class SinhVien implements Comparable<SinhVien>{
+class SinhVien implements Comparable<SinhVien> {
 
     private String id, name, phone, nGroup;
     private int group;
@@ -23,10 +23,10 @@ class SinhVien implements Comparable<SinhVien>{
     }
 
     @Override
-    public int compareTo(SinhVien other){
+    public int compareTo(SinhVien other) {
         return this.id.compareTo(other.id);
     }
-    
+
     @Override
     public String toString() {
         return this.id + " " + this.name + " " + this.phone + " " + this.group + " " + this.nGroup;
